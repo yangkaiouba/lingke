@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./img/favicon.ico">
+  <title>领克git</title>
+
+  <link rel="stylesheet" href="./lb.css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="./3D.css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="./3D.css/demo.css">
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body onLoad="InitScripts()">
+  <!-- 整体大盒子 -->
+  <div id="utmost">
+    <!-- 头部导航栏 -->
+    <div id="head">
+      <header>
+        <!-- 左边图案 -->
+        <div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <!-- 中间 -->
+        <ul id="ul1">
+          <li class="down"><a href="#">我是领克</a>
+            <div class="redlines"></div>
+          </li>
+          <li class="down"><a href="#">领克车系</a>
+            <div class="redlines"></div>
+          </li>
+          <li class="down"><a href="#">领克新能源</a>
+            <div></div>
+          </li>
+          <li><a href="#"><img src="./img/lingke.png"></a></li>
+          <li class="down"><a href="#">领克服务</a>
+            <div class="redlines"></div>
+          </li>
+          <li class="down"><a href="#">领克试驾</a>
+            <div class="redlines"></div>
+          </li>
+          <li class="down"><a href="#">领克竞速</a>
+            <div class="redlines"></div>
+          </li>
+        </ul>
+        <!-- 右边 -->
+        <ul id="ul2">
+          <li><a href="$"><img src="./img/k01.png"></a></li>
+          <li><a href="$"><img src="./img/k02.png"></a></li>
+          <li><a href="$"><img src="./img/k03.png"></a></li>
+          <li><a href="$"><img src="./img/k04.png"></a></li>
+        </ul>
+      </header>
+      <!-- 下拉的背景 -->
+      <div class="shade"></div>
+      <!-- 下拉显示 -->
+      <div id="down">
+        <!-- 第一个li下拉的图片 -->
+        <div id="down-div1">
+          <span>
+            <img src="./img/a01.jpg" class="gray">
+            <div class="hide">遇见领克</div>
+          </span>
+          <span>
+            <img src="./img/a02.jpg" class="gray">
+            <div class="hide">新闻潮汛</div>
+          </span>
+          <span>
+            <img src="./img/a03.jpg" class="gray">
+            <div class="hide">Co:Club</div>
+          </span>
+          <span>
+            <img src="./img/a04.jpg" class="gray">
+            <div class="hide">Co:Lab</div>
+          </span>
+          <span>
+            <img src="./img/a05.png" class="gray">
+            <div class="hide">领克全球</div>
+          </span>
+        </div>
+        <!-- 第二个li下拉的图片 -->
+        <div></div>
+      </div>
+    </div>
+    <!-- 轮播图 -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="title" data-swiper-parallax="-130%">
+          </div>
+          <div class="img-box"><img src="./img/pc02.jpg" style="transform:translateX(0);"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="title" data-swiper-parallax="-130%">
+
+          </div>
+          <div class="img-box"><img src="./img/pc01.jpg"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="title" data-swiper-parallax="-130%">
+
+          </div>
+          <div class="img-box"><img src="./img/pc03.jpg"></div>
+        </div>
+      </div>
+      <div class="button-prev button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 350 160 90">
+          <g id="arrow-svg-home">
+            <g id="circ" class="cls-1">
+              <circle cx="42" cy="42" r="40" class="cls-4"></circle>
+            </g>
+            <g id="arrow">
+              <path id="arrow-trg" d="M.983,6.929,4.447,3.464.983,0,0,.983,2.482,3.464,0,5.946Z"></path>
+            </g>
+            <path id="line" d="M120,0H0" class="cls-3"></path>
+          </g>
+        </svg></div>
+      <!--左箭头-->
+      <div class="button-next button"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 350 160 90">
+          <g id="arrow-svg-home">
+            <g id="circ" class="cls-1">
+              <circle cx="42" cy="42" r="40" class="cls-4"></circle>
+            </g>
+            <g id="arrow">
+              <path id="arrow-trg" d="M.983,6.929,4.447,3.464.983,0,0,.983,2.482,3.464,0,5.946Z" class="cls-2"></path>
+            </g>
+            <path id="line" d="M120,0H0" class="cls-3"></path>
+          </g>
+        </svg></div>
+      <!--右箭头-->
+    </div>
+    <!-- 立体轮播图 -->
+    <div id="liTi">
+      <p>从零开始，探索领克</p>
+      <p>你的出行，从此焕然一新</p>
+      <p>与你的领克一起，唤醒都市</p>
+      <div id="Ellipse">
+        <img class="RotatingIcon" src="./img/car01.jpg">
+        <img class="RotatingIcon" src="./img/car03.png">
+        <img class="RotatingIcon" src="./img/car02.png">
+        <img class="RotatingIcon" src="./img/car05.png">
+        <img class="RotatingIcon" src="./img/car06.png">
+        <img class="RotatingIcon" src="./img/car09.jpg">
+      </div>
+    </div>
+
+    <!-- 动画视频 -->
+    <div>
+      <video class="c-media__video" id="home-media-video" loop="" controls="" muted="" autoplay="autoplay">
+        <source type="audio/mp4"
+          src="https://dm30webimages.lynkco.com.cn/LynkCoPortal/Files/Live/2021birth/1012/5years.mp4">
+      </video>
+    </div>
+
+    <!-- 图片效果 第一组-->
+    <div class="toggle-img">
+      <!-- 左边图片 -->
+      <div class="left-img" id="left-img-one" style="transform: skew(-20deg, 0deg) translateX(-46%);">
+        <img src="./img/2.png" style="display: block;">
+        <img src="./img/1.png" style="display: none;">
+      </div>
+
+      <!-- 文字效果1 -->
+      <span id="span1">
+        <p>预约试驾</p>
+        <span class="box-shadow"></span>
+        <div id="shi"> 即刻体验</div>
+      </span>
+
+      <!-- 右边图片 -->
+      <div class="right-img" id="right-img-one" style="transform: skew(-20deg, 0deg) translateX(53%);">
+        <img src="./img/4.png" style="display: none;">
+        <img src="./img/3.png" style="display: block;">
+      </div>
+
+      <!-- 文字效果2 -->
+      <span id="span2">
+        <p>整车商城</p>
+        <span class="box-shadow"></span>
+        <div id="shie"> 即刻体验</div>
+      </span>
+    </div>
+
+    <!-- 图片效果 第二组-->
+    <div class="toggle-img">
+
+      <div class="left-img keLo1" id="left-img-one" style="transform: skew(-20deg, 0deg) translateX(-46%);">
+        <img src="./img/6.png" style="display: block;">
+        <img src="./img/5.png" style="display: none;">
+      </div>
+
+      <!-- 文字效果1 -->
+      <span id="span1">
+        <p style="width:168px">让创意成为现实</p>
+        <span class="box-shadow"></span>
+        <div id="shi"> 即刻体验</div>
+      </span>
+
+      <div class="right-img keLo2" id="right-img-one" style="transform: skew(-20deg, 0deg) translateX(53%);">
+        <img src="./img/8.png" style="display: none;">
+        <img src="./img/7.png" style="display: block;">
+      </div>
+
+      <!-- 文字效果2 -->
+      <span id="span2">
+        <p style="width: 240px; margin-left:0;font-size: 18px;">趣探索都市生活新可能</p>
+        <span class="box-shadow"></span>
+        <div id="shie"> 即刻体验</div>
+      </span>
+    </div>
+
+    <!-- gif动图块 -->
+    <div id="gt">
+      <img src="./img/dongdong.jpg">
+
+      <div class="app-box animated fadeInRight" id="app-box">
+        <div class="app-title">
+          <img alt="" src="https://dm30webimages.lynkco.com.cn/LynkCoPortal/media/2021/10/16/4973834084929243751.png">
+        </div>
+        <img alt="" class="pic-line"
+          src="https://dm30webimages.lynkco.com.cn/LynkCoPortal/media/2021/10/11/4670110178630489527.png">
+        <div class="qrblock">
+          <img alt=""
+            src="https://lynk-portal-prod-ntt-obs-02.obs.cn-east-2.myhwclouds.com/LynkCoPortal/media/2022/0225/app.png">
+          <div class="remark">
+            <div class="subtitle">想Get最新资讯?</div>
+            <div class="desc">即刻下载Lynk&amp;Co App探索领克新世界</div>
+          </div>
+        </div>
+        <div class="version">
+          开发者信息：领克汽车销售有限公司 版本:Android:2.2.41/ iOS:2.2.41&nbsp;<a
+            href="https://www.lynkco.com.cn/AppPrivacyPolicy">隐私政策/权限说明</a>
+        </div>
+      </div>
+
+      <img src="./img/dongtu.gif" id="diVv">
+    </div>
+
+    <div id="father">
+      <div id="gather">
+        <ul class="ul1">
+          <li>我是领克</li>
+          <li>遇见领克</li>
+          <li>新闻潮汛</li>
+          <li>Co:Club</li>
+          <li>Co:Lab</li>
+          <li>领克全球</li>
+        </ul>
+
+        <ul>
+          <li>领克车系</li>
+          <li>领克01</li>
+          <li>领克02</li>
+          <li>领克03</li>
+          <li>领克04</li>
+          <li>领克05</li>
+          <li>领克06</li>
+        </ul>
+
+        <ul>
+          <li>领克新能源</li>
+          <li>新能源家族</li>
+          <li>Lynk E-Motive</li>
+          <li>The Next Day概念车</li>
+        </ul>
+
+        <ul>
+          <li>领克服务</li>
+          <li>灵活拥车</li>
+          <li>智享服务</li>
+          <li>电池回收</li>
+          <li>服务活动</li>
+        </ul>
+
+        <ul>
+          <li>领克竞速</li>
+          <li>汽车运动体验中心</li>
+          <li>WTCR</li>
+        </ul>
+
+        <ul class="ul6">
+          <li>领克试驾</li>
+          <li>经销商查询</li>
+          <li>试驾试乘</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 脚部 -->
+    <div id="footer">
+      <img src="./img/rexian.jpg">
+      <div>
+        <div>&copy;&nbsp;浙江吉利控股集团有限公司 版权所有 浙ICP备11045738号-12<img src="./img/police.png"> 浙公网安备 33010802009900号</div>
+        <div id="vv">
+          <ul>
+            <li>成为经销商 |</li>
+            <li>联系我们 |</li>
+            <li>加入我们 |</li>
+            <li>网站地图 |</li>
+            <li>隐私政策</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="ce">
+    <div>
+      <img src="./img/s1.png" class="xian">
+      <img src="./img/s2.png" class="none">
+      <p>
+        在线客服
+        <img src="./img/s7.png">
+      </p>
+    </div>
+    <div>
+      <img src="./img/s3.png"  class="xian">
+      <img src="./img/s4.png" class="none">
+      <p>
+        在线客服
+        <img src="./img/s7.png">
+      </p>
+    </div>
+    <div>
+      <img src="./img/s5.png"  class="xian">
+      <img src="./img/s6.png" class="none">
+      <p>
+        在线客服
+        <img src="./img/s7.png">
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
+<script src="./lb.js/swiper.min.js"></script>
+<script src="./3D.js/ImageRotator-min.js"></script>
+<script src="./index.js"></script>
+<script type="text/javascript">
+  var imageRotater = null;
+  function InitScripts() {
+    imageRotater = ImageRotatorJS('Ellipse', 'RotatingIcon', 5, 110, 3000, 0, 90, 40, null);
+  }
+</script>
